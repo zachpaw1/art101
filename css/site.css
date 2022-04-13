@@ -1,3 +1,47 @@
 #my-portrait {
+  width: 400px;
+  float: right
+}
+
+h1 {
+  color: #53FFFF;
+  font-size: 200%;
+  text-indent: 300px;
+}
+
+h2{
+  color: #53FFFF;
+  font-size: 100%;
+  text-indext: 100px;
+}
+
+p {
+  font-family: "comic sans";
+  text-indent: 40px;
+  margin-left: 10px;
+  color: #53FFFF;
+}
+
+#content {
+  background-color: #FF5353;
+  width: 1300px;
+  min-height: 40px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 15px #000000;
+  font-size: 30px;
+}
+
+#assignments{
+  background-color: #FF5353;
   width: 500px;
+  min-height: 40px;
+  padding: 5px;
+  margin: 5px;
+  border: solid 10px #000000;
+  font-size: 20px;
+}
+
+ul{
+  color: #53FFFF;
 }
