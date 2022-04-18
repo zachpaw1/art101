@@ -4,13 +4,13 @@
 }
 
 h1 {
-  color: #53FFFF;
+  color: #000000;
   font-size: 200%;
   text-indent: 300px;
 }
 
 h2{
-  color: #53FFFF;
+  color: #000000;
   font-size: 100%;
   text-indext: 100px;
 }
@@ -19,7 +19,7 @@ p {
   font-family: "comic sans";
   text-indent: 40px;
   margin-left: 10px;
-  color: #53FFFF;
+  color: #000000;
 }
 
 #content {
@@ -43,5 +43,5 @@ p {
 }
 
 ul{
-  color: #53FFFF;
+  color: #000000;
 }
