@@ -6,7 +6,7 @@
 h1 {
   color: #000000;
   font-size: 200%;
-  text-indent: 300px;
+  text-indent: 40%;
 }
 
 h2{
@@ -24,7 +24,6 @@ p {
 
 #content {
   background-color: #FF5353;
-  width: 1300px;
   min-height: 40px;
   padding: 10px;
   margin: 10px;

@@ -4,7 +4,7 @@
 	<title>About Me</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-<style>
+	<style>
 			body {font-family: Arial;}
 
 		/* Style the tab */
@@ -46,13 +46,38 @@
 </style>
 </head>
 <body>
+
 	<div class="tab">
-	  <button class="tablinks" onclick="openTab(event, 'Back')">Back</button>
+	  <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+	  <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+	  <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+		<button class="tablinks" onclick="openTab(event, 'Resume')">Resume</button>
+		<button class="tablinks" onclick="openTab(event, 'Contact_Info')">Contact Info</button>
 	</div>
 
-	<div id="Back" class="tabcontent">
-	  <h3>Back</h3>
-	  <p><a onclick="history.back()">Go Back</a></p>
+	<div id="Home" class="tabcontent">
+	  <h3>Home</h3>
+	  <p><a href="https://zachpaw1.github.io/art101/">Back to Home!</a></p>
+	</div>
+
+	<div id="About" class="tabcontent">
+	  <h3>About</h3>
+	  <p><a href="About/index.html">About Me</a></p>
+	</div>
+
+	<div id="Projects" class="tabcontent">
+	  <h3>Projects</h3>
+	  <p><a href="Projects/index.html">Projects/Portfolio</a></p>
+	</div>
+
+	<div id="Resume" class="tabcontent">
+		<h3>Resume</h3>
+		<p><a href="Resume/index.html">Resume</a></p>
+	</div>
+
+	<div id="Contact_Info" class="tabcontent">
+		<h3>Contact Info</h3>
+		<p><a href="Contact_Info/index.html">Contact Info</a></p>
 	</div>
 
 	<script>
@@ -72,13 +97,11 @@
 	</script>
 
 	<div id="content">
-		<h1>Hello World</h1>
-			<p> My partners name is Diego. He is a 4th year student in the AGPM major. This is his last quarter here at UCSC, he has coding experience, and he is taking 4 classes this quarter.
-				My name is Zac, I am a 3rd year APGM major, and I'm taking 4 classes this quarter. I have a little bit of coding experience
-				In terms of games, Diego has recently been playing Elden Ring, and I have been playing through Assassin's Creed: Black Flag.
-				We're both really excited to take this class, and hope that it allows us to not only broaden our coding world, but also give us the neccessary tools
-				as we go out into the working world.
-			</p>
+		<h1>About Me</h1>
+		<p> Hey there! My name is Zac, and I'm from Long Beach, California. I graduated
+			from the University of California: Santa Cruz (UCSC) in the spring of 2023,
+			with a B.A in their Art and Design: Games and Playable Media (AGPM) major.
+		</p>
 	</div>
 </body>
 </html>
