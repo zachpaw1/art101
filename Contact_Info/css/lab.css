@@ -1,37 +1,24 @@
-#lab5Challenge {
-  background-color: #FF5353;
+#Contact {
   width: 1850px;
   min-height: 40px;
   padding: 10px;
   margin: 10px;
-  border: solid 15px #000000;
   font-size: 25px;
 }
 
-#lab5Problems {
-  background-color: #FF5353;
+#Different_Contacts {
   width: 1850px;
   min-height: 40px;
   padding: 10px;
   margin: 10px;
-  border: solid 15px #000000;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-#lab5Results {
-  background-color: #FF5353;
-  width: 1850px;
-  min-height: 40px;
-  padding: 10px;
-  margin: 10px;
-  border: solid 15px #000000;
-  font-size: 20px;
-}
 
 h1 {
   color: #000000;
   font-size: 200%;
-  text-indent: 800px;
+  text-indent: 700px;
 }
 
 h2{
